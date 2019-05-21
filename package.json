@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://gitlab.com/ist-supsi/swisstopo/bmsjs.git"
   },
-  "author": "geoservice@supsi.ch",
+  "author": "SUPSI",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
