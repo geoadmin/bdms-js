@@ -1,0 +1,3 @@
+# Boreholes Management System JavaScript API (bdms-js)
+
+Lorem ipsum...
