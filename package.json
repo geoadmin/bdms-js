@@ -15,10 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/ist-supsi/swisstopo/bmsjs.git"
+    "url": "git+https://github.com/geoadmin/bdms-js.git"
   },
-  "author": "SUPSI",
-  "license": "ISC",
+  "author": "SUPSI <geoservice@supsi.ch> (https://github.com/ist-supsi)",
+  "contributors": [
+    "Milan P. Antonovic <milan.antonovic@supsi.ch> (https://github.com/mantonovic)"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/geoadmin/bdms-js/issues"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
