@@ -1,3 +1,5 @@
 # Boreholes Management System JavaScript API
 
-Lorem ipsum...
+A ReactJS module exposing BDMS Server REST API.
+
+(documentation coming soon..)
