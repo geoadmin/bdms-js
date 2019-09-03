@@ -1,0 +1,4 @@
+axios:0.18.0  --> MIT [https://www.npmjs.com/package/axios]
+prop-types:15.6.2 --> MIT [https://www.npmjs.com/package/prop-types]
+redux:4.0.0 --> MIT [https://www.npmjs.com/package/redux]
+redux-thunk:2.3.0 --> MIT [https://www.npmjs.com/package/redux-thunk]
