@@ -1,7 +1,7 @@
 {
   "name": "@ist-supsi/bmsjs",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.6",
+  "description": "A ReactJS module exposing WEB-BDMS Server REST API.",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geoadmin/bdms-js.git"
+    "url": "https://github.com/geoadmin/js-bdms.git"
   },
-  "author": "SUPSI <geoservice@supsi.ch> (https://github.com/ist-supsi)",
+  "author": "SUPSI <geomatica@supsi.ch> (https://github.com/ist-supsi)",
   "contributors": [
     "Milan P. Antonovic <milan.antonovic@supsi.ch> (https://github.com/mantonovic)"
   ],
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/geoadmin/bdms-js/issues"
+    "url": "https://github.com/geoadmin/js-bdms/issues"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
