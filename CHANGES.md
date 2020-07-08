@@ -30,6 +30,13 @@ Added new service-bdms related new REST API implementation:
    
    Execute the download of borehole attachments.
 
+### Function changes
+
+- **patchSettings(tree, value, key=null)**:
+   
+   To handle guest user, when settings patch is launched, only local state
+   is updated.
+
 #### Backwards incompatible changes REST API:
 
  - uploadBoreholeList became importBoreholeList and the *action* attribute
