@@ -6,13 +6,34 @@
 
 Added new service-bdms related new REST API implementation:
 
+ - **publishTerms()**:
+   
+   Promote the draft of *terms of service* to go public (admin users only).
+
+ - **getTerms()**:
+   
+   Get the current *terms of service*.
+
+ - **getTermsDraft()**:
+   
+   Get the current draft *terms of service* (admin users only).
+
+ - **draftTerms(terms)**:
+   
+   Admins can update the current *terms of service* flagging it
+   as *draft* (admin users only).
+
+ - **acceptTerms(idTes)**:
+   
+   The user accepts the current *terms of service* of service 
+
  - **getBoreholeFiles(id)**:
    
    fetch the list of files attached to a borehole by its id (for VIEWERs)
 
  - **getEditorBoreholeFiles(id)**:
    
-   fetch the list of files attached to  a borehole by its id (for EDITORs)
+   fetch the list of files attached to a borehole by its id (for EDITORs)
 
  - **uploadBoreholeAttachment(id, file)**:
    
