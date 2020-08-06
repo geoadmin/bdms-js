@@ -22,6 +22,11 @@ Move into the folder where you want to use it (mainly used in conjunction with [
 npm link @ist-supsi/bmsjs
 ```
 
+To unlink
+```bash
+npm unlink @ist-supsi/bmsjs
+```
+
 To start development with hot building run this script.
 
 ```bash
