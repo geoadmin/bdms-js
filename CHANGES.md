@@ -1,5 +1,48 @@
 # List of all changes
 
+## What's new in js-bdms 1.0.9
+
+### New functions
+
+Added login screen text management REST API implementation:
+
+ - **publishContent()**:
+   
+   Promote the draft of the login screen text to go public (admin users only).
+
+ - **getContent()**:
+   
+   Get the current of the *login screen text*.
+
+ - **getContentDraft()**:
+   
+   Get the current draft of the *login screen text* (admin users only).
+   
+ - **draftContent()**:
+   
+   Update the current draft of the *login screen text* (admin users only).
+   
+### Function changes
+
+ - None
+
+## What's new in js-bdms 1.0.8
+
+### New functions
+
+ - None
+
+### Function changes
+
+ - **createIdentifier(identifiers)**
+
+   Create a new identifier for each language
+
+ - **updateIdentifier(id identifiers)**
+
+   Update the identifier for each language
+
+
 ## What's new in js-bdms 1.0.7
 
 ### New functions
