@@ -1,6 +1,6 @@
 # List of all changes
 
-## What's new in js-bdms 1.0.9
+## What's new in js-bdms 1.0.8
 
 ### New functions
 
@@ -21,16 +21,6 @@ Added login screen text management REST API implementation:
  - **draftContent()**:
    
    Update the current draft of the *login screen text* (admin users only).
-   
-### Function changes
-
- - None
-
-## What's new in js-bdms 1.0.8
-
-### New functions
-
- - None
 
 ### Function changes
 
