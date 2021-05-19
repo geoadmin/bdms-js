@@ -1,5 +1,45 @@
 # List of all changes
 
+## What's new in js-bdms 1.0.9
+
+### New functions
+
+Added the new copy borehole function:
+
+ - **copyBorehole(id borehole, id workgroup)**:
+   
+   Copy an existing borehole into the given workgroup (editor users only).
+
+Export / Import functions:
+
+ - **exportDatabase(id workgroup)**:
+   
+   Execute a full geopackage export of the database or filtered by workgroup.
+
+ - **importDatabaseWorkgroup(id workgroup)**:
+   
+   Import an exported database into an existing workgroup for editing.
+
+ - **importDatabaseSupplier(id workgroup)**:
+   
+   Import an exported database into an supplier (read only) workgroup.
+
+ - **importDatabaseNewSupplier(id workgroup)**:
+   
+   Import an exported database into an new supplier (read only) workgroup, created on the fly.
+
+User reload:
+
+ - **reloadUser**:
+
+   Reload the current user configurations.
+
+Workgroups / Suppliers:
+
+ - **listSuppliers**:
+
+   Get the list of suppliers only.
+
 ## What's new in js-bdms 1.0.8
 
 ### New functions
