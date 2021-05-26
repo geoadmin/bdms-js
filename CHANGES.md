@@ -12,9 +12,13 @@ Added the new copy borehole function:
 
 Export / Import functions:
 
- - **exportDatabase(id workgroup)**:
+ - **exportDatabase(id? workgroup)**:
    
    Execute a full geopackage export of the database or filtered by workgroup.
+
+ - **exportDatabaseById([ids] boreholes)**:
+   
+   Execute a geopackage export of the database based on an array of borehole id.
 
  - **importDatabaseWorkgroup(id workgroup)**:
    
